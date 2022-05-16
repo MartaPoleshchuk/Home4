@@ -1,0 +1,33 @@
+.redsq{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #FF0000;
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FF0000;
+}
+.bluesq{
+    position:absolute;
+    top: 55px;
+    left: 55px;
+    background-color: #0000FF;
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0000FF;
+}
+.greensq{
+    position:absolute;
+    top: 55px;
+    left: 55px;
+    background-color: #008000;
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #008000;
+}
