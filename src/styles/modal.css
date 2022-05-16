@@ -1,4 +1,9 @@
- body{
+@font-face{
+    font-family: Lato-Light;
+src: url('../fonts/Lato-Light.ttf');
+}
+
+body{
     
     text-align: left;
     font-family: Lato-Light;
@@ -10,28 +15,75 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.modal{
+.fade:before {
+    content: '';
     z-index: 2;
-    position:relative;
-    width:100%;
-    height:100%;
+    position:fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
 
-    display: inline-block;
-    box-sizing: border-box;
-   
-    
     background-color: rgba(0, 0, 0, .5);
 }
-#window{
+.popup{
     z-index: 3;
-    position: absolute;
+    position: fixed;
+    top:20%;
+    padding:20px;
     left:40%;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 
     display: inline-block;
     box-sizing: border-box;
 
-    background-color: aliceblue;
+    background-color: #FFFFFF;
+
+}
+.button_1{
+
+    position:absolute;
+    bottom: 20px;
+    left:20px;
+
+    width:80px;
+    height:40px;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center; 
+    
+
+    color:#FFFFFF;
+    background-color: forestgreen;
+
+}
+.button_2 {
+
+    position:absolute;
+    bottom: 20px;
+    left:110px;
+
+    width:80px;
+    height:40px;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center; 
+    
+
+    color:#FFFFFF;
+    background-color:darkgoldenrod;
+
+}
+.button_close {
+    position:absolute;
+    top:-20px;
+    right:-20px;
+
+    font-size: 24px;
+
+    color:#FFFFFF
 
 }
